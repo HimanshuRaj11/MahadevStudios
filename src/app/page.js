@@ -1,4 +1,4 @@
-import CrewCard from "@/components/CrewCard.jsx";
+import CrewCard from "@/components/CrewCard";
 import HomePage from "@/components/HomePage";
 
 export default function Home() {
