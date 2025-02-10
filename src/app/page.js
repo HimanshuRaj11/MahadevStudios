@@ -43,11 +43,11 @@ export default function Home() {
 
       <div className="w-full flex flex-col items-center justify-center bg-gray-800">
         <h1 className="text-4xl text-center my-5 text-white">Our Singers</h1>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-center items-center">
           {
             crew.map((cerw, i) => {
               return (
-                <div className="m-5 w-full flex flex-wrap justify-center items-center">
+                <div className="m-5 ">
                   <CrewCard />
                 </div>
               )
