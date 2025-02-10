@@ -10,14 +10,14 @@ export default function page() {
         AOS.init();
     }, [])
     return (
-        <div>
-            <section className="relative h-screen md:h-[70vh] flex items-center justify-center text-center p-6">
+        <div className='w-[100%]'>
+            <section className="relative w-full h-screen md:h-[70vh] flex items-center justify-center text-center p-6">
                 <Image
                     src="/6190833.jpg"
                     alt="Mahadev Studios"
                     layout="fill"
                     objectFit="cover"
-                    className="absolute inset-0 z-0 opacity-100"
+                    className="absolute inset-0 z-0 opacity-100 w-full"
                 />
                 <div className="w-full h-full z-10 flex justify-center items-center">
                     <h1 className='text-8xl kanit-extrabold p-10 rounded-lg backdrop-blur-md text-neutral-300 '>ABOUT US</h1>

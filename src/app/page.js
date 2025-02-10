@@ -26,7 +26,7 @@ export default function Home() {
     },
   ]
   return (
-    <div className="">
+    <div className="w-[100%]">
       <HomePage />
 
       <div className="w-full px-11 flex md:flex-row flex-col justify-center items-center bg-gray-800 py-10">
