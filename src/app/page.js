@@ -42,7 +42,7 @@ export default function Home() {
       </div>
 
       <div className="w-full flex flex-col items-center justify-center bg-gray-800">
-        <h1 className="text-4xl text-center my-5 text-white">Our Singers</h1>
+        <h1 className="text-4xl text-center my-5 text-white font-bold">Our Singers</h1>
         <div className="flex flex-wrap justify-center items-center">
           {
             crew.map((cerw, i) => {
