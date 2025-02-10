@@ -4,7 +4,7 @@ export default function CrewCard() {
     return (
 
         <div
-            className="profile-card w-[300px] rounded-md shadow-xl overflow-hidden relative cursor-pointer snap-start shrink-0 bg-white flex flex-col items-center justify-center gap-3 transition-all duration-300 group"
+            className="profile-card w-[280px] sm:w-[300px] rounded-md shadow-xl overflow-hidden relative cursor-pointer snap-start shrink-0 bg-white flex flex-col items-center justify-center gap-3 transition-all duration-300 group"
         >
             <div
                 className="avatar w-full pt-5 flex items-center justify-center flex-col gap-1"
