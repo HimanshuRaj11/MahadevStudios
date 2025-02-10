@@ -36,9 +36,9 @@ export default function Navbar() {
     ]
 
     return (
-        <nav className="fixed backdrop-blur-md w-full top-0 bg-none z-50 shadow-lg">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
-                <Link href="/" className="flex items-center rtl:space-x-reverse">
+        <nav className="fixed backdrop-blur-md w-[100%] top-0 z-50 shadow-lg">
+            <div className="w-[100%] flex flex-wrap items-center justify-between p-2">
+                <Link href="/" className="flex items-center">
                     <img src={`/MahadevStudios.png`} className="size-16" alt="Mahadev Studios" />
                 </Link>
                 <button onClick={toggleMenu} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded={isOpen}>
