@@ -25,17 +25,13 @@ export default function page() {
 
             </section>
             {/*  */}
-            <div className="w-full flex flex-col pt-11 md:flex-row px-11 bg-[url('/6923253.jpg')]">
-                <div className=" w-full md:w-[50%]">
-
+            <div className="w-full flex flex-col justify-center items-center pt-11 md:flex-row px-3 md:px-11 bg-[url('/6923253.jpg')]">
+                <div className=" w-full md:w-[45%] ">
+                    <img src="\about.jpg" className='object-contain m-2 md:h-[50vh] rounded-lg' alt="" />
                 </div>
-                <div data-aos="fade-up"
-                    data-aos-duration="1000"
-                    className="relative z-20 w-full md:w-[50%] p-6">
+                <div data-aos="fade-up" data-aos-duration="1000" className="relative z-20 w-full md:w-[50%] p-6">
 
-                    <div
-                        class="cursor-pointer group overflow-hidden shadow-xl shadow-neutral-900 p-5 duration-1000 hover:duration-1000 relative w-full backdrop-blur-md rounded-xl"
-                    >
+                    <div class="cursor-pointer group overflow-hidden shadow-xl shadow-neutral-900 p-5 duration-1000 hover:duration-1000 relative w-full backdrop-blur-md rounded-xl">
                         <div class="group-hover:-top-3 bg-transparent -top-12 -left-12 absolute shadow-yellow-800 shadow-inner rounded-xl transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24"></div>
                         <div
                             class="group-hover:top-60 bg-transparent top-44 left-14 absolute shadow-red-800 shadow-inner rounded-xl transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24"
