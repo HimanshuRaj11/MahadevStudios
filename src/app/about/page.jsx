@@ -11,7 +11,7 @@ export default function page() {
     }, [])
     return (
         <div className='w-[100%]'>
-            <section className="relative w-full h-screen md:h-[70vh] flex items-center justify-center text-center p-6">
+            <section className="relative w-full h-[55vh] md:h-[70vh] flex items-center justify-center text-center p-6">
                 <Image
                     src="/6190833.jpg"
                     alt="Mahadev Studios"
