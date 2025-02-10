@@ -7,7 +7,7 @@ export default function Footer() {
 
         <footer className="py-8 px-6 text-center bg-gradient-to-r from-gray-800 via-gray-900 to-black text-gray-300">
             <nav className="mb-6">
-                <ul className="flex justify-center space-x-8">
+                <ul className="flex flex-wrap justify-center space-x-8">
                     <li><Link href="#home" className="hover:text-white transition duration-300 ease-in-out">Home</Link></li>
                     <li><Link href="#about" className="hover:text-white transition duration-300 ease-in-out">About</Link></li>
                     <li><Link href="#services" className="hover:text-white transition duration-300 ease-in-out">Services</Link></li>
@@ -15,7 +15,7 @@ export default function Footer() {
                     <li><Link href="#events" className="hover:text-white transition duration-300 ease-in-out">Events</Link></li>
                 </ul>
             </nav>
-            <div className="mb-6 flex justify-center space-x-6">
+            <div className="mb-6 flex-wrap flex justify-center space-x-6">
                 <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-white transition duration-300 ease-in-out">
                     <FaFacebook />
                     <span>Facebook</span>
