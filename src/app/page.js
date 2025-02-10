@@ -30,10 +30,10 @@ export default function Home() {
       <HomePage />
 
       <div className="w-full px-11 flex md:flex-row flex-col justify-center items-center bg-gray-800 py-10">
-        <div className="w-1/2 max-w-md">
+        <div className="md:w-1/2 ">
           <img src="bg2.jpg" alt="Background Image" className="rounded-lg shadow-lg" />
         </div>
-        <div className="w-1/2 max-w-md ml-8 text-white">
+        <div className="md:w-1/2 max-w-md ml-8 text-white">
           <h1 className="text-4xl font-bold mb-4">Info</h1>
           <p className="text-lg leading-relaxed">
             At Mahadev Studios, we blend creativity with expertise to produce visually stunning and impactful content. Whether it’s a compelling documentary, a powerful advertisement, or a captivating short film, we ensure every project resonates with the audience. With a team of industry professionals and a legacy of excellence, we craft narratives that inform, inspire, and engage.
@@ -47,7 +47,7 @@ export default function Home() {
           {
             crew.map((cerw, i) => {
               return (
-                <div className="m-5">
+                <div className="m-5 flex flex-wrap justify-center items-center">
                   <CrewCard />
                 </div>
               )
