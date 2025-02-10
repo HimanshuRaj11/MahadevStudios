@@ -47,7 +47,7 @@ export default function Home() {
           {
             crew.map((cerw, i) => {
               return (
-                <div className="m-5 flex flex-wrap justify-center items-center">
+                <div className="m-5 w-full flex flex-wrap justify-center items-center">
                   <CrewCard />
                 </div>
               )
