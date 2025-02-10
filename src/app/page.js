@@ -29,7 +29,7 @@ export default function Home() {
     <div className="">
       <HomePage />
 
-      <div className="w-full px-11 flex justify-center items-center bg-gray-800 py-10">
+      <div className="w-full px-11 flex md:flex-row flex-col justify-center items-center bg-gray-800 py-10">
         <div className="w-1/2 max-w-md">
           <img src="bg2.jpg" alt="Background Image" className="rounded-lg shadow-lg" />
         </div>
