@@ -41,7 +41,7 @@ export default function page() {
                         <div class="group-hover:top-44 bg-transparent top-24 left-12 absolute shadow-sky-500 shadow-inner rounded-xl transition-all ease-in-out group-hover:duration-1000 duration-1000 w-4 h-4" ></div>
                         <div class="w-full h-full sm:p-3  opacity-50 rounded-xl flex-col flex justify-center" >
                             <span class="text-white font-bold text-3xl  italic">About Mahadev Studios</span>
-                            <p class="text-neutral-50 justify-center">
+                            <p class="text-white justify-center">
                                 Mahadev Studios, founded in 2010 in Shimla, is a premier production house specializing in high-quality documentaries, short films, jingles, advertisements, and more. With over 20 years of experience in the National TV industry, we have built a reputation for excellence, working on projects that highlight government welfare initiatives, societal transformation, and impactful public policies. Our team of 15-20 highly skilled professionals, with vast experience in the National TV industry, are not just seasoned experts but also dedicated storytellers. We ensure every production is crafted with passion and precision, giving life to each project. At Mahadev Studios, our goal is to create visual narratives that deeply resonate with the audience, driving awareness and participation. Choose us for unparalleled creativity, professionalism, and results.
                             </p>
                         </div>
