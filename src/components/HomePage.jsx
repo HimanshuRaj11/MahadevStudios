@@ -11,14 +11,14 @@ const HomePage = () => {
         AOS.init();
     }, [])
     return (
-        <div className="min-h-screen text-white">
+        <div className="  text-white">
             {/* Hero Section */}
-            <section className="relative h-screen flex items-center justify-center text-center cursor-pointer p-6">
+            <section className="relative h-[60vh] md:h-screen flex items-center justify-center text-center cursor-pointer p-6">
                 <div className="w-full h-full absolute flex justify-center items-center">
                     <img
                         src="/ms.jpg"
                         alt="Recording Studio"
-                        className="size-[35rem] md:size-[40rem] inset-0 z-20 opacity-100 animate-bounce"
+                        className="size-[20rem] md:size-[40rem] inset-0 z-20 opacity-100 animate-bounce"
                         style={{
                             animation: 'moveUpDown 3s ease-in-out infinite'
                         }}
@@ -36,7 +36,7 @@ const HomePage = () => {
 
                 <div data-aos="fade-up"
                     data-aos-duration="1000"
-                    className="absolute left-5 bottom-16 z-20 max-w-2xl">
+                    className="absolute hidden left-5 bottom-16 z-20 max-w-2xl">
 
                     <Homecard />
                 </div>
