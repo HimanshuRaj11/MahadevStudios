@@ -18,7 +18,7 @@ const HomePage = () => {
                     <img
                         src="/ms.jpg"
                         alt="Recording Studio"
-                        className="size-[20rem] drop-shadow-2xl md:size-[40rem] inset-0 z-20 opacity-100 animate-bounce"
+                        className="size-[20rem]  md:size-[40rem] inset-0 z-20 opacity-100 animate-bounce"
                         style={{
                             animation: 'moveUpDown 3s ease-in-out infinite'
                         }}
