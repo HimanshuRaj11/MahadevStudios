@@ -20,7 +20,7 @@ export default function page() {
                     className="absolute inset-0 z-0 opacity-100 w-full"
                 />
                 <div className="w-full h-full z-10 flex justify-center items-center">
-                    <h1 className='text-5xl md:text-8xl kanit-extrabold p-10 rounded-lg backdrop-blur-md text-neutral-300 '>ABOUT US</h1>
+                    <h1 className='border text-5xl md:text-8xl kanit-extrabold p-10 rounded-lg backdrop-blur-md text-neutral-300 '>ABOUT US</h1>
                 </div>
 
             </section>
