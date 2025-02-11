@@ -26,10 +26,10 @@ export default function Home() {
     },
   ]
   return (
-    <div className="w-[100%]">
+    <div className="w-[100%] ">
       <HomePage />
 
-      <div className="w-full px-3 md:px-11 flex md:flex-row flex-col justify-center items-center bg-gray-800 py-10">
+      <div className="w-full px-3 md:px-11 flex md:flex-row flex-col justify-center items-center  py-10">
         <div className="md:w-1/2 md:px-0">
           <img src="bg2.jpg" alt="Background Image" className="rounded-lg shadow-lg" />
         </div>
@@ -41,13 +41,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-[100%] flex flex-col items-center justify-center bg-gray-800">
+      <div className="w-[100%] flex flex-col items-center justify-center ">
         <h1 className="text-4xl text-center my-5 text-white font-bold">Our Singers</h1>
         <div className="flex w-full flex-wrap justify-center items-center">
           {
             crew.map((cerw, i) => {
               return (
-                <div className="m-5 ">
+                <div key={i} className="m-5 ">
                   <CrewCard />
                 </div>
               )
