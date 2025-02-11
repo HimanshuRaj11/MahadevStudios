@@ -52,7 +52,7 @@ export default function Navbar() {
                                 const isActive = pathname === item.link
                                 return (
                                     <li key={i}>
-                                        <Link href={item.link} className={`block py-2 px-3 ${isActive ? "text-orange-400 bg-slate-950 " : ""} hover:text-orange-400 text-lg font-bold rounded text-gray-200`}>{item.Label}</Link>
+                                        <Link href={item.link} className={`block py-2 px-3 ${isActive ? "text-orange-400 border bg-slate-950 " : ""} hover:text-orange-400 text-lg font-bold rounded text-gray-200`}>{item.Label}</Link>
                                     </li>
                                 )
                             })
