@@ -1,48 +1,30 @@
 "use client"
 import { useEffect } from 'react';
-import Image from 'next/image';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Homecard from './Homecard';
 
 const HomePage = () => {
     useEffect(() => {
         AOS.init();
     }, [])
     return (
-        <div className="  text-white">
-            {/* Hero Section */}
-            <section className="relative h-[60vh] md:h-screen flex items-center justify-center text-center cursor-pointer p-6">
-                <div className="w-full h-full absolute flex justify-center items-center">
-                    <img
-                        src="/ms.jpg"
-                        alt="Recording Studio"
-                        className="size-[20rem]  md:size-[40rem] inset-0 z-20 opacity-100 animate-bounce"
-                        style={{
-                            animation: 'moveUpDown 3s ease-in-out infinite'
-                        }}
-                    />
-                </div>
+
+        <section className="top-10 md:top-2 relative h-[70vh] md:h-screen bg-contain bg-no-repeat flex items-center justify-center text-center cursor-pointer bg-[url('/homebg1.jpg')] p-6">
+            <img
+                src="/MahadevStudios.png"
+                alt="Recording Studio"
+                className="size-[10rem] absolute left-20 top-5  lg:size-[25rem] animate-bounce"
+                style={{
+                    animation: 'moveUpDown 3s ease-in-out infinite'
+                }}
+            />
+            <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl absolute right-3 top-[30vh] permanent-marker-regular font-semibold text-white w-[40%] p-5'>Crafting Impactful Visual Stories Since 2010</h1>
 
 
-                <Image
-                    src="/7893988.jpg"
-                    alt="Recording Studio"
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute inset-0 z-10 opacity-100"
-                />
+        </section>
 
-                <div data-aos="fade-up"
-                    data-aos-duration="1000"
-                    className="absolute hidden left-5 bottom-16 z-20 max-w-2xl">
 
-                    <Homecard />
-                </div>
-            </section>
-
-        </div>
     );
 };
 
