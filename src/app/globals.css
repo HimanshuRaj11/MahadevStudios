@@ -104,9 +104,6 @@
   background: linear-gradient(left, #8391A6, #536175);
 }
 
-.octa {
-  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-}
 
 .shadowIn {
   box-shadow: -4px 0px 57px 51px rgba(0, 0, 0, 1) inset;

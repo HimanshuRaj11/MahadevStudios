@@ -4,6 +4,8 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Services from "@/components/serviceCard";
+import { FaRocket } from "react-icons/fa";
+import WhyChooseUs from "@/components/WhyChooseUs";
 export default function Home() {
   const crew = [
     {
@@ -96,17 +98,6 @@ export default function Home() {
       <div className="w-[100%] flex flex-col items-center justify-center shadowIn py-3 px-16 ">
         <h1 className="text-4xl text-center my-5 text-white font-bold">Our Team</h1>
 
-        <div className="w-full flex justify-center items-center relative">
-          <div className="flex justify-center m-3 items-center bg-cover w-[45%] rounded-lg overflow-hidden" data-aos="zoom-out-up" data-aos-duration="1000">
-            <img src="/Gallery/5L4A9185.JPG" className="rounded-lg size-[100%] object-cover" alt="" />
-          </div>
-          <div className="p-5 m-3 rounded-md backdrop-blur-sm cursor-pointer shadow-lg w-[40%] text-justify" data-aos="zoom-out-up" data-aos-duration="1000">
-            <p className="inline text-shadow text-white text-lg ">
-              <h1 className="font-bold text-lg">15-20 Highly Skilled Professionals – </h1>With years of experience in the National TV industry, our team consists of directors, cinematographers, editors, and creative strategists dedicated to delivering top-notch productions.
-            </p>
-          </div>
-        </div>
-
         <div className="flex w-full flex-wrap justify-center items-center">
           {
             crew.map((cerw, i) => {
@@ -118,7 +109,23 @@ export default function Home() {
             })
           }
         </div>
+
+        <div className="w-full flex flex-col md:flex-row justify-center items-center relative">
+          <div className="flex justify-center m-3 items-center bg-cover w-[80%] md:w-[45%] rounded-lg overflow-hidden" data-aos="zoom-out-up" data-aos-duration="1000">
+            <img src="/Gallery/5L4A9185.JPG" className="rounded-lg size-[100%] object-cover" alt="" />
+          </div>
+          <div className="p-5 m-3 rounded-md backdrop-blur-sm cursor-pointer shadow-lg w-[90%] md:w-[40%] text-justify" data-aos="zoom-out-up" data-aos-duration="1000">
+            <p className="inline text-shadow text-white text-lg ">
+              <span className="font-bold text-lg">15-20 Highly Skilled Professionals – </span>With years of experience in the National TV industry, our team consists of directors, cinematographers, editors, and creative strategists dedicated to delivering top-notch productions.
+            </p>
+          </div>
+        </div>
+
+
       </div>
+
+      {/* Why Choose Us? */}
+      <WhyChooseUs />
 
 
     </div>
