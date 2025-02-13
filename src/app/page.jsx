@@ -39,7 +39,7 @@ export default function Home() {
 
     <div className="w-[100%] ">
       {/* Hero section */}
-      <section className="trelative h-[60vh] md:h-screen bg-center bg-cover bg-no-repeat flex items-center justify-center text-center cursor-pointer bg-[url('/7893988.jpg')] p-6" style={{ boxShadow: 'inset 0 -200px 100px -100px black' }}>
+      <section className="relative h-[60vh] md:h-screen bg-center bg-cover bg-no-repeat flex items-center justify-center text-center cursor-pointer bg-[url('/7893988.jpg')] p-6" style={{ boxShadow: 'inset 0 -200px 100px -100px black' }}>
         <img
           src="/MahadevStudios.png"
           alt="Recording Studio"

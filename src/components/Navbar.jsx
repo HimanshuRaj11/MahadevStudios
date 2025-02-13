@@ -33,7 +33,7 @@ export default function Navbar() {
     ]
 
     return (
-        <nav className="fixed backdrop-blur-md w-[100%] top-0 z-50 shadow-lg">
+        <nav className="fixed backdrop-blur-md w-[100%] top-0 z-50 shadow-2xl">
             <div className="w-[100%] flex flex-wrap items-center justify-between p-2">
                 <Link href="/" className="flex items-center">
                     <img src={`/MahadevStudios.png`} className="size-16" alt="Mahadev Studios" />
