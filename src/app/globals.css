@@ -108,6 +108,22 @@
   clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
 
+.shadowIn {
+  box-shadow: -4px 0px 57px 51px rgba(0, 0, 0, 1) inset;
+  -webkit-box-shadow: -4px 0px 57px 51px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: -4px 0px 57px 51px rgba(0, 0, 0, 1) inset;
+}
+
+.imgShadow {
+  box-shadow: 2px 0px 87px 29px rgba(0, 0, 0, 0.81) inset;
+  -webkit-box-shadow: 2px 0px 87px 29px rgba(0, 0, 0, 0.81) inset;
+  -moz-box-shadow: 2px 0px 87px 29px rgba(0, 0, 0, 0.81) inset;
+}
+
+.text-shadow {
+  text-shadow: 2px -1px 6px rgba(0, 0, 0, 1);
+}
+
 /* Fonts */
 .kanit-regular {
   font-family: "Kanit", serif;

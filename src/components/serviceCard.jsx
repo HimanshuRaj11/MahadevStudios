@@ -31,15 +31,17 @@ const services = [
 
 export default function Services() {
     return (
-        <div className="flex gap-6 justify-center  p-10 flex-wrap">
+        <div className="flex gap-6 justify-center px-10 py-5 flex-wrap">
             {services.map((service, index) => (
-                <Card key={index} className="bg-transparent backdrop-blur-sm max-w-72 text-white p-6 cursor-pointer rounded-xl border border-gray-700 hover:shadow-lg  hover:scale-105 transform transition-transform duration-300">
-                    <CardContent className="flex flex-col items-start gap-4">
-                        <div className="p-3 bg-yellow-900/20 rounded-full">{service.icon}</div>
-                        <h3 className="text-lg font-semibold">{service.title}</h3>
-                        <p className="text-sm text-gray-300 text-justify">{service.description}</p>
-                    </CardContent>
-                </Card>
+                <div data-aos="zoom-out-up" data-aos-duration="1000" key={index} className="">
+                    <Card className="bg-transparent h-[18rem] backdrop-blur-md max-w-72 text-white p-6 cursor-pointer rounded-xl border border-gray-700 hover:shadow-2xl  hover:scale-105 transform transition-transform duration-300">
+                        <CardContent className="flex flex-col items-start gap-4">
+                            <div className="p-3 bg-yellow-900/20 rounded-full">{service.icon}</div>
+                            <h3 className="text-lg font-semibold">{service.title}</h3>
+                            <p className="text-sm text-gray-300 text-justify text-shadow">{service.description}</p>
+                        </CardContent>
+                    </Card>
+                </div>
             ))}
         </div>
     );

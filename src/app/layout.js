@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       >
         <div className="w-full">
           <Navbar />
-          <div className="w-full bg-[url('/dark22.jpg')]">
+          <div className="overflow-hidden w-full bg-[url('/dark22.jpg')]">
             {children}
           </div>
           <Footer />
