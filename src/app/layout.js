@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        <div className="w-full">
+        <div className="w-full bg-black">
           <Navbar />
           <div className="overflow-hidden w-full bg-[url('/dark22.jpg')]">
             {children}

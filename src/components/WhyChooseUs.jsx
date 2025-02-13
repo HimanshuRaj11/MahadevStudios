@@ -4,6 +4,7 @@ import { BsFillCameraReelsFill } from "react-icons/bs";
 import { FaRocket } from 'react-icons/fa';
 import { MdFax } from "react-icons/md";
 import { PiSpeakerSimpleHighFill } from "react-icons/pi";
+import { GiTakeMyMoney } from "react-icons/gi";
 const Tags = [
     {
         icon: <FaRocket className="text-3xl text-white" />,
@@ -20,6 +21,10 @@ const Tags = [
     {
         icon: <PiSpeakerSimpleHighFill className="text-3xl text-white" />,
         tag: "Commitment to Excellence & Client Satisfaction"
+    },
+    {
+        icon: <GiTakeMyMoney className="text-3xl text-white" />,
+        tag: "High-Quality Production at Competitive Rates"
     },
 ]
 export default function WhyChooseUs() {

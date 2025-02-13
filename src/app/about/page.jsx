@@ -11,13 +11,14 @@ export default function page() {
     }, [])
     return (
         <div className='w-[100%]'>
-            <section className="relative w-full h-[55vh] md:h-[70vh] flex items-center justify-center text-center p-6">
+            <section className="relative w-full h-[55vh] md:h-[70vh] flex items-center justify-center text-center p-6 " style={{ boxShadow: 'inset 0 -200px 100px -100px black' }}>
                 <Image
                     src="/6190833.jpg"
                     alt="Mahadev Studios"
                     layout="fill"
                     objectFit="cover"
                     className="absolute inset-0 z-0 opacity-100 w-full"
+                    style={{ boxShadow: 'inset 0 -200px 100px -100px black' }}
                 />
                 <div className="w-full h-full z-10 flex justify-center items-center">
                     <h1 className='border text-5xl md:text-8xl kanit-extrabold p-10 rounded-lg backdrop-blur-md text-neutral-300 '>ABOUT US</h1>
