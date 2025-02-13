@@ -10,7 +10,6 @@ export default function page() {
     const imageFiles = [
         "0fa47954.jpg",
         "5L4A0990.JPG",
-        "5L4A2324.JPG",
         "5L4A2384.JPG",
         "5L4A2583.JPG",
         "5L4A5495.JPG",
@@ -83,7 +82,7 @@ export default function page() {
                     {
                         imageFiles.map((image, i) => {
                             return (
-                                <div className="overflow-hidden m-3 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+                                <div data-aos="zoom-out-up" data-aos-duration="1000" className="overflow-hidden m-3 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
                                     <img src={`/Gallery/${image}`} alt="Gallery Image 1" className="w-full h-48 object-cover" />
                                 </div>
                             )
