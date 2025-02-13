@@ -10,8 +10,7 @@ export default function Footer() {
                 <ul className="flex flex-wrap justify-center space-x-8">
                     <li><Link href="/" className="hover:text-white transition duration-300 ease-in-out">Home</Link></li>
                     <li><Link href="/about" className="hover:text-white transition duration-300 ease-in-out">About</Link></li>
-                    <li><Link href="/services" className="hover:text-white transition duration-300 ease-in-out">Services</Link></li>
-                    <li><Link href="/events" className="hover:text-white transition duration-300 ease-in-out">Events</Link></li>
+                    <li><Link href="/our-work" className="hover:text-white transition duration-300 ease-in-out">Our Works</Link></li>
                     <li><Link href="/contact" className="hover:text-white transition duration-300 ease-in-out">Contact</Link></li>
                 </ul>
             </nav>

@@ -21,13 +21,10 @@ export default function Navbar() {
             Label: "About",
             link: "/about",
         },
+
         {
-            Label: "Service",
-            link: "/service",
-        },
-        {
-            Label: "Events",
-            link: "/events",
+            Label: "Our Works",
+            link: "/our-work",
         },
         {
             Label: "Contact",

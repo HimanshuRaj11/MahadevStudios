@@ -95,7 +95,7 @@ export default function Home() {
       </div>
 
       {/* Our Team */}
-      <div className="w-[100%] flex flex-col items-center justify-center shadowIn py-3 px-16 ">
+      <div className="w-[100%] flex flex-col items-center justify-center shadowIn py-3 px-6 md:px-16 ">
         <h1 className="text-4xl text-center my-5 text-white font-bold">Our Team</h1>
 
         <div className="flex w-full flex-wrap justify-center items-center">
