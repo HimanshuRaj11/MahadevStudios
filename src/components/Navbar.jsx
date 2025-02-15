@@ -27,6 +27,10 @@ export default function Navbar() {
             link: "/our-work",
         },
         {
+            Label: "Our Client",
+            link: "/our-clients",
+        },
+        {
             Label: "Contact",
             link: "/contact",
         },
