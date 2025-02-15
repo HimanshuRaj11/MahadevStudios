@@ -13,7 +13,7 @@ export default function ContactPage() {
                 <div className="bg-gradient-to-b  p-6 md:p-12">
                     <div className="max-w-5xl mx-auto bg-gray-800 p-8 shadow-lg rounded-lg text-center">
                         <h2 className="text-2xl font-semibold text-white">Have some Questions?</h2>
-                        <div className="flex flex-row">
+                        <div className="flex flex-col md:flex-row">
                             <div className="p-4">
 
                                 <p className="text-gray-300 mt-2">We’d love to hear from you</p>
