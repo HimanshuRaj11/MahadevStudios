@@ -119,7 +119,7 @@ export default function Home() {
           </div>
           <div className="p-5 m-3 rounded-md backdrop-blur-sm cursor-pointer shadow-lg w-[90%] md:w-[40%] text-justify" data-aos="zoom-out-up" data-aos-duration="1000">
             <p className="inline text-shadow text-white text-lg ">
-              <span className="font-bold text-lg">15-20 Highly Skilled Professionals – </span>With years of experience in the National TV industry, our team consists of directors, cinematographers, editors, and creative strategists dedicated to delivering top-notch productions.
+              <span className="font-bold text-lg">Our team of 15-20 highly skilled professionals – </span> brings years of experience in the national TV industry, specializing in directing, cinematography, editing, and creative strategy. With a passion for storytelling and a commitment to excellence, we work seamlessly together to craft visually stunning and impactful productions. Our experts collaborate closely, ensuring a perfect blend of technical precision and creative vision, making every project a masterpiece. From concept to final edit, we bring innovation, expertise, and dedication to every frame.
             </p>
           </div>
         </div>
@@ -131,15 +131,17 @@ export default function Home() {
       <WhyChooseUs />
 
       {/* Our Top Works  */}
-      <div className="">
-        <div className="">
-          <h1>Our Top </h1>
+      <div className="shadowIn flex flex-col">
+        <div className="flex justify-center items-center">
+          <h1 className="font-bold text-white text-4xl " data-aos="zoom-out-up" data-aos-duration="1000">Our Top Works </h1>
         </div>
         <div className="flex flex-wrap justify-center items-center py-10">
           {
             OurWork.map((work, i) => {
               return (
-                <EventCard key={i} work={work} />
+                <div key={i} className="" data-aos="zoom-out-up" data-aos-duration="1000">
+                  <EventCard work={work} />
+                </div>
               )
             })
           }
