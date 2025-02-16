@@ -6,6 +6,9 @@ import 'aos/dist/aos.css';
 import Services from "@/components/serviceCard";
 import { FaRocket } from "react-icons/fa";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import EventCard from "@/components/EventCard";
+import { OurWork } from "@/lib/Data/OurWork";
+import Link from "next/link";
 export default function Home() {
   const crew = [
     {
@@ -98,7 +101,7 @@ export default function Home() {
       <div className="w-[100%] flex flex-col items-center justify-center shadowIn py-3 px-6 md:px-16 ">
         <h1 className="text-4xl text-center my-5 text-white font-bold">Our Team</h1>
 
-        <div className="flex w-full flex-wrap justify-center items-center">
+        {/* <div className="flex w-full flex-wrap justify-center items-center">
           {
             crew.map((cerw, i) => {
               return (
@@ -108,7 +111,7 @@ export default function Home() {
               )
             })
           }
-        </div>
+        </div> */}
 
         <div className="w-full flex flex-col md:flex-row justify-center items-center relative">
           <div className="flex justify-center m-3 items-center bg-cover w-[80%] md:w-[45%] rounded-lg overflow-hidden" data-aos="zoom-out-up" data-aos-duration="1000">
@@ -127,7 +130,25 @@ export default function Home() {
       {/* Why Choose Us? */}
       <WhyChooseUs />
 
+      {/* Our Top Works  */}
+      <div className="">
+        <div className="">
+          <h1>Our Top </h1>
+        </div>
+        <div className="flex flex-wrap justify-center items-center py-10">
+          {
+            OurWork.map((work, i) => {
+              return (
+                <EventCard key={i} work={work} />
+              )
+            })
+          }
 
+        </div>
+        <div className="flex justify-center items-center">
+          <Link href={'/our-work'}></Link>
+        </div>
+      </div>
     </div>
   );
 }
