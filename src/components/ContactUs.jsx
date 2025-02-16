@@ -1,19 +1,15 @@
-import Link from 'next/link';
-import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
+import Link from 'next/link'
+import React from 'react'
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { MdEmail, MdLocationOn, MdPhone } from 'react-icons/md'
 
-export default function ContactPage() {
+export default function ContactUs() {
     return (
-        <div className='min-h-screen w-full flex justify-center items-center flex-col '>
-            <div className="w-full bg-[url('/ytktykk7.jpg')] bg-cover h-[60vh] flex justify-center items-center" style={{ boxShadow: 'inset 0 -200px 100px -100px black' }}>
-                <h1 className='text-3xl md:text-8xl p-5 backdrop-blur-md rounded-md text-white font-bold border'>Get In Touch</h1>
-            </div>
-
+        <div className=" flex justify-center items-center shadowIn">
             <div className="w-[90%] md:w-[80%] flex flex-col items-center mt-10 space-y-6">
                 <div className="bg-gradient-to-b  p-6 md:p-12">
                     <div className="max-w-5xl mx-auto bg-gray-800 p-8 shadow-lg rounded-lg text-center">
-                        <h2 className="text-2xl font-semibold text-white">Have some Questions?</h2>
+                        <h2 className="text-2xl font-semibold text-white">Contact Us</h2>
                         <div className="flex flex-col md:flex-row">
                             <div className="p-4">
 
@@ -67,5 +63,5 @@ export default function ContactPage() {
                 </div>
             </div>
         </div>
-    );
+    )
 }

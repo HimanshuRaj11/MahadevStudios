@@ -1,38 +1,18 @@
 "use client"
-import CrewCard from "@/components/CrewCard";
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Services from "@/components/serviceCard";
-import { FaRocket } from "react-icons/fa";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import EventCard from "@/components/EventCard";
-import { OurWork } from "@/lib/Data/OurWork";
-import Link from "next/link";
+
+import OurTopWorks from "@/components/OurTopWorks";
+import ContactUs from "@/components/ContactUs";
+import OurTeam from "@/components/OurTeam";
+import Aboutsection from "@/components/Aboutsection";
+import OurTopPerformer from "@/components/OurTopPerformer";
+import Event_Concert_Organization from "@/components/Event_Concert_Organization";
 export default function Home() {
-  const crew = [
-    {
-      name: "",
-      instagram: "",
-      phone: "",
-      image: "",
-      address: "",
-    },
-    {
-      name: "",
-      instagram: "",
-      phone: "",
-      image: "",
-      address: "",
-    },
-    {
-      name: "",
-      instagram: "",
-      phone: "",
-      image: "",
-      address: "",
-    },
-  ]
+
 
 
   useEffect(() => {
@@ -54,35 +34,7 @@ export default function Home() {
       </section>
 
       {/* about section */}
-      <div className="w-full px-3 flex flex-col justify-center shadowIn items-center md:px-24 py-10" >
-        <div className="">
-          <h1 className='text-3xl md:text-5xl kanit-extrabold p-10 text-neutral-300 '>ABOUT US</h1>
-        </div>
-
-        {/* --- */}
-        <div className="flex md:flex-row flex-col justify-center items-center">
-          <div className="md:w-1/2 md:px-0" data-aos="zoom-out-up" data-aos-duration="1000">
-            <img src="/Gallery/IMG_7728.JPG" alt="Background Image" className="rounded-lg shadow-lg" />
-          </div>
-          <div className="md:w-[48%] w-full md:ml-8 text-white" data-aos="zoom-out-up" data-aos-duration="1000">
-            <h1 className="text-4xl font-bold mb-4 pl-5">Who We Are?</h1>
-            <div className="p-5 text-justify">
-
-              <p className="text-lg leading-relaxed inline">
-                Founded in 2010 in Shimla, <span className="font-bold text-lg">Mahadev Studios</span> is a renowned film production house known for producing high-quality documentaries, short films, add films,web series,music videos and albums songs ,advertisements, and more.
-              </p>
-              <br />
-
-              <p className="inline text-justify">
-                With <span className="font-bold text-lg">20+ years</span> of experience in the National TV industry, we have established ourselves as storytelling experts, crafting impactful visual content that resonates with audiences.
-              </p>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-
+      <Aboutsection />
 
 
 
@@ -90,7 +42,7 @@ export default function Home() {
 
       <div className="bg-[url('/6923253v.jpg')] md:bg-[url('/6923253.jpg')] w-[100%] shadowIn pt-10" >
         <div data-aos="zoom-out-up" data-aos-duration="1000" className="flex justify-center items-center ">
-          <h1 className='text-3xl border md:text-5xl text-neutral-300 my-10 md:mt-0 p-2 md:p-4 bg-black/30 backdrop-blur-md rounded-lg'>
+          <h1 className='text-4xl font-bold border md:text-5xl text-neutral-300 my-10 md:mt-0 p-2 md:p-4 bg-black/30 backdrop-blur-md rounded-lg'>
             Our Expertise & Services
           </h1>
         </div>
@@ -98,59 +50,24 @@ export default function Home() {
       </div>
 
       {/* Our Team */}
-      <div className="w-[100%] flex flex-col items-center justify-center shadowIn py-3 px-6 md:px-16 ">
-        <h1 className="text-4xl text-center my-5 text-white font-bold">Our Team</h1>
-
-        {/* <div className="flex w-full flex-wrap justify-center items-center">
-          {
-            crew.map((cerw, i) => {
-              return (
-                <div key={i} className="m-5 " data-aos="zoom-out-up" data-aos-duration="1000">
-                  <CrewCard />
-                </div>
-              )
-            })
-          }
-        </div> */}
-
-        <div className="w-full flex flex-col md:flex-row justify-center items-center relative">
-          <div className="flex justify-center m-3 items-center bg-cover w-[80%] md:w-[45%] rounded-lg overflow-hidden" data-aos="zoom-out-up" data-aos-duration="1000">
-            <img src="/Gallery/5L4A9185.JPG" className="rounded-lg size-[100%] object-cover" alt="" />
-          </div>
-          <div className="p-5 m-3 rounded-md backdrop-blur-sm cursor-pointer shadow-lg w-[90%] md:w-[40%] text-justify" data-aos="zoom-out-up" data-aos-duration="1000">
-            <p className="inline text-shadow text-white text-lg ">
-              <span className="font-bold text-lg">Our team of 15-20 highly skilled professionals – </span> brings years of experience in the national TV industry, specializing in directing, cinematography, editing, and creative strategy. With a passion for storytelling and a commitment to excellence, we work seamlessly together to craft visually stunning and impactful productions. Our experts collaborate closely, ensuring a perfect blend of technical precision and creative vision, making every project a masterpiece. From concept to final edit, we bring innovation, expertise, and dedication to every frame.
-            </p>
-          </div>
-        </div>
-
-
-      </div>
+      <OurTeam />
 
       {/* Why Choose Us? */}
       <WhyChooseUs />
 
-      {/* Our Top Works  */}
-      <div className="shadowIn flex flex-col">
-        <div className="flex justify-center items-center">
-          <h1 className="font-bold text-white text-4xl " data-aos="zoom-out-up" data-aos-duration="1000">Our Top Works </h1>
-        </div>
-        <div className="flex flex-wrap justify-center items-center py-10">
-          {
-            OurWork.map((work, i) => {
-              return (
-                <div key={i} className="" data-aos="zoom-out-up" data-aos-duration="1000">
-                  <EventCard work={work} />
-                </div>
-              )
-            })
-          }
+      {/* Event_Concert_Organization */}
+      <Event_Concert_Organization />
 
-        </div>
-        <div className="flex justify-center items-center">
-          <Link href={'/our-work'}></Link>
-        </div>
-      </div>
+      {/* Our Best Preformer */}
+      <OurTopPerformer />
+
+      {/* Our Top Works  */}
+      <OurTopWorks />
+
+      {/* contact us */}
+      <ContactUs />
+
+
     </div>
   );
 }

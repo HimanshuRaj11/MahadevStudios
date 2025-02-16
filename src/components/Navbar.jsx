@@ -30,10 +30,7 @@ export default function Navbar() {
             Label: "Our Client",
             link: "/our-clients",
         },
-        {
-            Label: "Contact",
-            link: "/contact",
-        },
+
     ]
 
     return (

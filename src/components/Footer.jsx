@@ -12,7 +12,6 @@ export default function Footer() {
                     <li><Link href="/about" className="hover:text-white transition duration-300 ease-in-out">About</Link></li>
                     <li><Link href="/our-work" className="hover:text-white transition duration-300 ease-in-out">Our Works</Link></li>
                     <li><Link href="/our-clients" className="hover:text-white transition duration-300 ease-in-out">Our client</Link></li>
-                    <li><Link href="/contact" className="hover:text-white transition duration-300 ease-in-out">Contact</Link></li>
                 </ul>
             </nav>
             <div className="mb-6 flex-wrap flex justify-center space-x-6">
