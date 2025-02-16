@@ -16,15 +16,15 @@ export default function Footer() {
                 </ul>
             </nav>
             <div className="mb-6 flex-wrap flex justify-center space-x-6">
-                <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-white transition duration-300 ease-in-out">
+                <Link href="https://www.facebook.com/wowhimachal" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-white transition duration-300 ease-in-out">
                     <FaFacebook />
                     <span>Facebook</span>
                 </Link>
-                <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-white transition duration-300 ease-in-out">
+                <Link href="https://www.instagram.com/wowhimachal" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-white transition duration-300 ease-in-out">
                     <FaInstagram />
                     <span>Instagram</span>
                 </Link>
-                <Link href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-white transition duration-300 ease-in-out">
+                <Link href="https://www.youtube.com/@MahadevStudios" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-white transition duration-300 ease-in-out">
                     <FaYoutube />
                     <span>YouTube</span>
                 </Link>

@@ -82,7 +82,7 @@ export default function page() {
                     {
                         imageFiles.map((image, i) => {
                             return (
-                                <div data-aos="zoom-out-up" data-aos-duration="1000" className="overflow-hidden m-3 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+                                <div key={i} data-aos="zoom-out-up" data-aos-duration="1000" className="overflow-hidden m-3 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
                                     <img src={`/Gallery/${image}`} alt="Gallery Image 1" className="w-full h-48 object-cover" />
                                 </div>
                             )

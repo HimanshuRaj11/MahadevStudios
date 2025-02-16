@@ -14,7 +14,7 @@ export const OurClient = {
         },
         {
             name: "Tinge Media",
-            description: "No information found; it may be a lesser-known or misspelled organization."
+            description: ""
         }
     ],
     government_departments_himachal_pradesh: [
@@ -23,8 +23,8 @@ export const OurClient = {
             description: "Responsible for managing transportation services, vehicle registrations, and road safety in Himachal Pradesh."
         },
         {
-            name: "HPMS",
-            description: "Ambiguous acronym; needs clarification as no specific government department with this name was found."
+            name: "HPMC",
+            description: "HPMC was established with the objective of marketing of fresh fruits and processing of all types of surplus fruits. It has developed the most modern system of marketing in the country."
         },
         {
             name: "Panchayati Raj Department, Himachal Pradesh",

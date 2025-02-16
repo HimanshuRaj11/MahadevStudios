@@ -1,5 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 
 export default function ContactPage() {
@@ -19,22 +20,24 @@ export default function ContactPage() {
                                 <p className="text-gray-300 mt-2">We’d love to hear from you</p>
                                 <p className="text-gray-400 mt-1">Facing issues or have queries? Our team is here to help.</p>
 
-                                <button className="mt-4 bg-purple-700 text-white px-6 py-2 rounded hover:bg-purple-800">
-                                    Contact Us
-                                </button>
+                                <Link href="mailto:mahadevproductionsshimla@gmail.com">
+                                    <button className="mt-4 bg-purple-700 text-white px-6 py-2 rounded hover:bg-purple-800">
+                                        Contact Us
+                                    </button>
+                                </Link>
                             </div>
                             <div className="flex flex-col  justify-between mt-6 text-gray-300 text-left">
                                 <div className="flex items-center gap-2">
                                     <MdPhone className="text-purple-700 text-xl" />
-                                    <span>+91 98765 43210 (24/7 Support)</span>
+                                    <span>+91 88945 48468, +91 70183 13617 (24/7 Support)</span>
                                 </div>
                                 <div className="flex items-center gap-2">
                                     <MdEmail className="text-purple-700 text-xl" />
-                                    <span>support@crossapp.com</span>
+                                    <span>mahadevproductionsshimla@gmail.com</span>
                                 </div>
                                 <div className="flex items-center gap-2">
                                     <MdLocationOn className="text-purple-700 text-xl" />
-                                    <span>No-10, Cross Street, Chandigarh, India</span>
+                                    <span>Flat no.1, Block-26 A, phase-3, Sector-5, New Shimla, Shimla-171009 Himachal Pradesh, India</span>
                                 </div>
                             </div>
                         </div>
@@ -44,10 +47,20 @@ export default function ContactPage() {
 
                         <p className="text-gray-300">Join us </p>
                         <div className="flex justify-center gap-4 mt-4 text-gray-400 text-2xl">
-                            <FaFacebook className=" cursor-pointer" />
-                            <FaTwitter className=" cursor-pointer" />
-                            <FaInstagram className=" cursor-pointer" />
-                            <FaLinkedin className=" cursor-pointer" />
+                            <Link href="https://www.facebook.com/wowhimachal" target="_blank" rel="noopener noreferrer">
+                                <FaFacebook className="cursor-pointer" />
+                            </Link>
+
+                            {/* <Link href="https://www.x.com/" target="_blank" rel="noopener noreferrer">
+                                <FaTwitter className="cursor-pointer" />
+                            </Link> */}
+
+                            <Link href="https://www.instagram.com/wowhimachal" target="_blank" rel="noopener noreferrer">
+                                <FaInstagram className="cursor-pointer" />
+                            </Link>
+                            <Link href="https://www.youtube.com/@MahadevStudios" target="_blank" rel="noopener noreferrer">
+                                <FaYoutube className="cursor-pointer" />
+                            </Link>
                         </div>
 
                     </div>
