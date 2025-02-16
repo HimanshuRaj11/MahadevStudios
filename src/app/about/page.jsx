@@ -12,7 +12,7 @@ export default function page() {
         "5L4A0990.JPG",
         "5L4A2384.JPG",
         "5L4A2583.JPG",
-        "5L4A5495.JPG",
+
         "5L4A5572.JPG",
         "5L4A8168.JPG",
         "5L4A8379.JPG",
