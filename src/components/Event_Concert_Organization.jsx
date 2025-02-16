@@ -50,7 +50,7 @@ export default function Event_Concert_Organization() {
                                 return (
                                     <div data-aos="zoom-out-up" data-aos-duration="1000" key={i} className="flex flex-col p-5 m-3 h-32 cursor-pointer border rounded-md w-[90%] md:w-[30rem]  hover:scale-105 transform transition-transform duration-300">
                                         <span className='font-semibold'>{item.name} –</span>
-                                        <span>{item.description}</span>
+                                        <span className='text-sm'>{item.description}</span>
                                     </div>
 
                                 )
