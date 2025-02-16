@@ -11,6 +11,7 @@ import OurTeam from "@/components/OurTeam";
 import Aboutsection from "@/components/Aboutsection";
 import OurTopPerformer from "@/components/OurTopPerformer";
 import Event_Concert_Organization from "@/components/Event_Concert_Organization";
+import OurClients from '@/components/OurClients';
 export default function Home() {
 
 
@@ -63,6 +64,10 @@ export default function Home() {
 
       {/* Our Top Works  */}
       <OurTopWorks />
+
+      {/* Our Clients */}
+
+      <OurClients />
 
       {/* contact us */}
       <ContactUs />

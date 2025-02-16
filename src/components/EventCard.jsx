@@ -4,7 +4,7 @@ import React from 'react'
 export default function EventCard({ work }) {
     return (
 
-        <div className="relative m-4 flex w-80 aspect-square flex-col rounded-xl bg-gray-800 bg-clip-border text-white shadow-md hover:shadow-lg hover:shadow-gray-500/40 cursor-pointer transition-all transform hover:scale-105 duration-300">
+        <div className="relative m-4 mb-8 flex w-80 aspect-square flex-col rounded-xl bg-gray-800 bg-clip-border text-white shadow-md hover:shadow-lg hover:shadow-gray-500/40 cursor-pointer transition-all transform hover:scale-105 duration-300">
             <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                 <img src={work.thumbnail} className='object-cover h-full ' alt="" />
             </div>

@@ -22,18 +22,25 @@ export default function ContactUs() {
                                     </button>
                                 </Link>
                             </div>
-                            <div className="flex flex-col  justify-between mt-6 text-gray-300 text-left">
-                                <div className="flex items-center gap-2">
-                                    <MdPhone className="text-purple-700 text-xl" />
-                                    <span>+91 88945 48468, +91 70183 13617 (24/7 Support)</span>
+                            <div className="flex flex-col   mt-6 text-gray-300 ">
+
+                                <div className="flex  gap-2 mt-2">
+                                    <Link href="tel:+918894548468" className='flex'>
+                                        <MdPhone className="text-purple-700 text-2xl" />
+                                        <span>+91 88945 48468</span>
+                                    </Link>
+                                    <Link href="tel:+917018313617" className='flex'>
+                                        <MdPhone className="text-purple-700 text-2xl" />
+                                        <span>+91 70183 13617</span>
+                                    </Link>
                                 </div>
-                                <div className="flex items-center gap-2">
+                                <div className="flex gap-2 mt-2">
                                     <MdEmail className="text-purple-700 text-xl" />
-                                    <span>mahadevproductionsshimla@gmail.com</span>
+                                    <span className='text-left'>mahadevproductionsshimla@gmail.com</span>
                                 </div>
-                                <div className="flex items-center gap-2">
-                                    <MdLocationOn className="text-purple-700 text-xl" />
-                                    <span>Flat no.1, Block-26 A, phase-3, Sector-5, New Shimla, Shimla-171009 Himachal Pradesh, India</span>
+                                <div className="flex  gap-2 mt-2">
+                                    <MdLocationOn className="text-purple-700 text-5xl lg:text-xl" />
+                                    <span className='text-left'>Flat no.1, Block-26 A, phase-3, Sector-5, New Shimla, Shimla-171009 Himachal Pradesh, India</span>
                                 </div>
                             </div>
                         </div>
