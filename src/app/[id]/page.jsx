@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { FaInstagram, FaYoutube, FaFacebook } from 'react-icons/fa';
 import Anjali_Nanak from '@/components/Crew/Anjali_Nanak';
 import NehaDixitProfile from '@/components/Crew/Neha_Dixit';
+import Subhash from '@/components/Crew/Subhash';
 
 export default function ProfilePage() {
     const [pageId, setPageid] = useState(null);
@@ -63,7 +64,6 @@ export default function ProfilePage() {
                 </div>
             </div>
 
-
             {/* discriptions */}
 
             <div className=" w-full md:w-[60%] p-4 ">
@@ -71,16 +71,18 @@ export default function ProfilePage() {
                     pageId?.id == "Neha_Dixit" && (
                         <NehaDixitProfile />
                     )
-
                 }
                 {
                     pageId?.id == "Anjali_Nanak" && (
                         <Anjali_Nanak />
                     )
-
+                }
+                {
+                    pageId?.id == "Subhash" && (
+                        <Subhash />
+                    )
                 }
             </div>
-
         </div>
     );
 }
