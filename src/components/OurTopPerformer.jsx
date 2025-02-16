@@ -1,10 +1,7 @@
+// "use client"
 import React from 'react'
 import CrewCard from './CrewCard'
 import Link from 'next/link'
-// import fs from "fs"
-
-// const dirContent = fs.readFileSync('content', 'utf-8')
-// console.log(dirContent);
 
 export const crew = [
     {
