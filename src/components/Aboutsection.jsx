@@ -24,6 +24,9 @@ export default function Aboutsection() {
                         <p className="inline text-justify">
                             With <span className="font-bold text-lg">20+ years</span> of experience in the National TV industry, we have established ourselves as storytelling experts, crafting impactful visual content that resonates with audiences.
                         </p>
+                        <p>
+                            For The Panchayati Raj Department of Himachal Pradesh,  It has <strong> proudly won two National Awards </strong> for a film created to highlight the initiatives and contributions of the department.
+                        </p>
 
                     </div>
                 </div>
