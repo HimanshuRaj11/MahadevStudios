@@ -34,7 +34,7 @@ export default function OurTopPerformer() {
     return (
         <div className="shadowIn">
             <div className="flex justify-center items-center">
-                <h1 className='text-4xl text-white font-bold' data-aos="zoom-out-up" data-aos-duration="1000">Out Best Performers</h1>
+                <h1 className='text-4xl text-white font-bold' data-aos="zoom-out-up" data-aos-duration="1000">Our Top Singers</h1>
             </div>
             <div className="">
                 <div className="flex w-full flex-wrap justify-center items-center">
