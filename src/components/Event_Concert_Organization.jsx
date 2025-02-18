@@ -14,10 +14,7 @@ export default function Event_Concert_Organization() {
             name: "Artist & Talent Management",
             description: "Booking top performers, speakers, and entertainment"
         },
-        {
-            name: "Lighting, Sound & Production",
-            description: "Cutting-edge technology for high-quality experiences"
-        },
+
         {
             name: "Marketing & Promotion",
             description: "Maximizing audience reach with strategic promotions"

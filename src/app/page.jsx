@@ -56,8 +56,7 @@ export default function Home() {
       {/* Why Choose Us? */}
       <WhyChooseUs />
 
-      {/* Event_Concert_Organization */}
-      <Event_Concert_Organization />
+
 
       {/* Our Best Preformer */}
       <OurTopPerformer />
@@ -68,6 +67,9 @@ export default function Home() {
       {/* Our Clients */}
 
       <OurClients />
+
+      {/* Event_Concert_Organization */}
+      <Event_Concert_Organization />
 
       {/* contact us */}
       <ContactUs />
