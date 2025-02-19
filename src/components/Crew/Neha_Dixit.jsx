@@ -46,8 +46,6 @@ const NehaDixitProfile = () => {
                 Whether it’s a grand concert, a cultural fest, or an exclusive private event, Neha Dixit promises an unforgettable musical experience. Her ability to connect with her audience, combined with her unparalleled talent, ensures every performance is a resounding success.
             </p>
 
-
-
             <div className="max-w-4xl mx-auto p-6 space-y-6">
                 <Card className="shadow-lg p-6 rounded-2xl bg-gray-800">
                     <h2 className="text-2xl font-bold text-center text-white">Ms. Neha Dixit - Celebrated Vocalist</h2>
@@ -65,18 +63,11 @@ const NehaDixitProfile = () => {
                         <li>Rashtrapati Niwas, Mashobra</li>
                         <li>Star Night in Nalagarh</li>
                         <li>Shimla Winter Carnival</li>
-                        <li>Manali Winter Carnival</li>
+                        <li>Star Night at Manali Winter Carnival</li>
                         <li>Gaitey Theatre, Shimla</li>
                         <li>Holi celebrations in Palampur</li>
                     </ul>
                 </Card>
-
-                {/* <Card className="shadow-lg p-6 rounded-2xl bg-white">
-                    <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                        <FaMapMarkerAlt className="mr-2 text-green-600" /> Upcoming Performance
-                    </h3>
-                    <p className="text-gray-700">Ms. Dixit is set to perform at the vibrant <span className="font-bold">Holi celebrations in Palampur</span>, bringing an electrifying energy to the festival.</p>
-                </Card> */}
 
                 <Card className="shadow-lg p-6 rounded-2xl bg-gray-800">
                     <h3 className="text-xl font-semibold text-white mb-4 flex items-center">
@@ -90,7 +81,7 @@ const NehaDixitProfile = () => {
                     <h2 className="text-2xl font-semibold mb-2">Performance of Neha Dixit </h2>
                     <div className="flex flex-col space-y-4">
                         <iframe
-                            src="https://www.instagram.com/reel/DFPkeKDpGvP/?igsh=OXVrYWR4eTcwYmV0"
+                            src="https://www.instagram.com/reel/DFPkeKDpGvP/embed"
                             width="400"
                             height="480"
                             frameBorder="0"
@@ -99,7 +90,7 @@ const NehaDixitProfile = () => {
                             title="Instagram Reel 1"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/reel/DDbHC13v4F6/?igsh=MTl6bXlvcW92dDg2YQ%3D%3D"
+                            src="https://www.instagram.com/reel/DDbHC13v4F6/embed"
                             width="400"
                             height="480"
                             frameBorder="0"
@@ -108,31 +99,26 @@ const NehaDixitProfile = () => {
                             title="Instagram Reel 2"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/reel/C99FAO_RlUW/?igsh=cGd6NTJoOHRsZGs1"
+                            src="https://www.instagram.com/reel/C99FAO_RlUW/embed"
                             width="400"
                             height="480"
                             frameBorder="0"
                             allowFullScreen
                             className="rounded-lg shadow-lg"
-                            title="Instagram Reel 2"
+                            title="Instagram Reel 3"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/reel/DE1o0qtx4Wi/?igsh=ejZsZWZ5MGRmMDNo"
+                            src="https://www.instagram.com/reel/DE1o0qtx4Wi/embed"
                             width="400"
                             height="480"
                             frameBorder="0"
                             allowFullScreen
                             className="rounded-lg shadow-lg"
-                            title="Instagram Reel 2"
+                            title="Instagram Reel 4"
                         ></iframe>
                     </div>
                 </section>
-                {/* 
-                <div className="text-center">
-                    <Button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg text-lg shadow-md">
-                        Contact for Booking
-                    </Button>
-                </div> */}
+
                 <p className="font-bold mb-2">For Bookings and Inquiries:</p>
                 <ul className="list-none mb-4">
                     <li>📧 Email: <a href="mailto:mahadevproductionsshimla@gmail.com" className="text-blue-500">mahadevproductionsshimla@gmail.com</a></li>
@@ -148,5 +134,3 @@ const NehaDixitProfile = () => {
 };
 
 export default NehaDixitProfile;
-
-

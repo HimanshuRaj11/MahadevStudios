@@ -21,7 +21,7 @@ export default function Subhash() {
                 <h2 className="text-2xl font-semibold mb-2">Performance of Subhash Prince </h2>
                 <div className="flex flex-col space-y-4">
                     <iframe
-                        src="https://www.instagram.com/reel/DEFEmgZvbh_/?igsh=NGRsYjBwejR5d2Fj"
+                        src="https://www.instagram.com/embed/reel/DEFEmgZvbh_"
                         width="400"
                         height="480"
                         frameBorder="0"
