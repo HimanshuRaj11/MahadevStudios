@@ -58,6 +58,29 @@ const Anjali_Nanak = () => {
                 </div>
             </section>
 
+            <section className="mb-6">
+                <h2 className="text-2xl font-semibold mb-2">Performance of Anjali Nanak </h2>
+                <div className="flex flex-col space-y-4">
+                    <iframe
+                        src="https://www.instagram.com/reel/DEmdcvxPPul/embed"
+                        width="400"
+                        height="480"
+                        frameBorder="0"
+                        allowFullScreen
+                        className="rounded-lg shadow-lg"
+                        title="Instagram Reel 1"
+                    ></iframe>
+                    <iframe
+                        src="https://www.instagram.com/reel/DEB7IRXvW7B/embed"
+                        width="400"
+                        height="480"
+                        frameBorder="0"
+                        allowFullScreen
+                        className="rounded-lg shadow-lg"
+                        title="Instagram Reel 2"
+                    ></iframe>
+                </div>
+            </section>
 
         </div>
     );

@@ -16,6 +16,22 @@ export default function Subhash() {
             <p className="text-xl font-bold">
                 Music is not just a hobby for me; it is my life's passion. There is nothing else that captivates me as much as music does.
             </p>
+
+            <section className="mb-6">
+                <h2 className="text-2xl font-semibold mb-2">Performance of Subhash Prince </h2>
+                <div className="flex flex-col space-y-4">
+                    <iframe
+                        src="https://www.instagram.com/reel/DEFEmgZvbh_/?igsh=NGRsYjBwejR5d2Fj"
+                        width="400"
+                        height="480"
+                        frameBorder="0"
+                        allowFullScreen
+                        className="rounded-lg shadow-lg"
+                        title="Instagram Reel 1"
+                    ></iframe>
+
+                </div>
+            </section>
         </div>
     );
 }
