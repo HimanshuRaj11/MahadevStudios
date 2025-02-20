@@ -17,9 +17,15 @@ export default function OurClients() {
                 <div className="flex flex-wrap justify-center">
                     {media_organizations.slice(0, 4).map((org, index) => {
                         return (
-                            <div data-aos="fade-up" data-aos-duration="1000" key={index} className=" backdrop-blur-md border shadow-md cursor-pointer rounded-lg p-6 m-4 w-full md:w-1/3 lg:w-1/4">
-                                <h2 className="text-xl text-white font-bold mb-2">{org.name}</h2>
-                                <p className="text-gray-200">{org.description}</p>
+                            <div data-aos="fade-up" data-aos-duration="1000" key={index} className="flex flex-row backdrop-blur-md border shadow-md cursor-pointer rounded-lg p-6 m-4 w-full md:w-1/3 lg:w-1/4">
+                                {
+                                    org.logo &&
+                                    <img src={org.logo} alt="" className='size-20 m-2 rounded-md aspect-square object-cover' />
+                                }
+                                <div className="flex flex-col">
+                                    <h2 className="text-xl text-white font-bold mb-2">{org.name}</h2>
+                                    <p className="text-gray-200">{org.description}</p>
+                                </div>
                             </div>
                         )
                     })}
@@ -34,9 +40,15 @@ export default function OurClients() {
                     {government_departments.slice(0, 4).map((dept, index) => {
                         return (
 
-                            <div data-aos="fade-up" data-aos-duration="1000" key={index} className=" backdrop-blur-md border shadow-md cursor-pointer rounded-lg p-6 m-4 w-full md:w-1/3 lg:w-1/4">
-                                <h2 className="text-xl text-white font-bold mb-2">{dept.name}</h2>
-                                <p className="text-gray-200">{dept.description}</p>
+                            <div data-aos="fade-up" data-aos-duration="1000" key={index} className="flex flex-row backdrop-blur-md border shadow-md cursor-pointer rounded-lg p-6 m-4 w-full md:w-1/3 lg:w-1/4">
+                                {
+                                    dept.logo &&
+                                    <img src={dept.logo} alt="" className='size-20 m-2 rounded-md aspect-square object-cover' />
+                                }
+                                <div className="flex flex-col">
+                                    <h2 className="text-xl text-white font-bold mb-2">{dept.name}</h2>
+                                    <p className="text-gray-200">{dept.description}</p>
+                                </div>
                             </div>
                         )
                     }

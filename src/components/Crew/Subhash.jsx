@@ -23,6 +23,12 @@ export default function Subhash() {
                     View Instagram Reel
                 </a>
             </section>
+
+            <p className="font-bold mb-2">For Bookings and Inquiries:</p>
+            <ul className="list-none mb-4">
+                <li>📧 Email: <a href="mailto:mahadevproductionsshimla@gmail.com" className="text-blue-500">mahadevproductionsshimla@gmail.com</a></li>
+                <li>📞 Contact: <a href="tel:8894548468" className="text-blue-500">8894548468</a>, <a href="tel:7018313617" className="text-blue-500">7018313617</a></li>
+            </ul>
         </div>
     );
 }
