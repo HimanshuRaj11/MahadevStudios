@@ -40,20 +40,27 @@ export default function Event_Concert_Organization() {
             <div className="flex flex-col md:flex-row  my-4 justify-around w-full">
                 <div className="flex flex-col items-center mb-4 md:mb-0">
                     <h2 data-aos="zoom-out-up" data-aos-duration="1000" className="text-3xl font-semibold mb-2 ">What We Offer</h2>
-                    <div className="list-disc list-inside text-xl flex justify-center items-center flex-wrap">
+                    <div className="flex flex-col md:flex-row">
+                        <div className="list-disc list-inside text-xl flex justify-center items-center flex-wrap">
 
-                        {
-                            listItems.map((item, i) => {
-                                return (
-                                    <div data-aos="zoom-out-up" data-aos-duration="1000" key={i} className="flex flex-col p-5 m-3 h-32 cursor-pointer border rounded-md w-[90%] md:w-[30rem]  hover:scale-105 transform transition-transform duration-300">
-                                        <span className='font-semibold'>{item.name} –</span>
-                                        <span className='text-sm'>{item.description}</span>
-                                    </div>
+                            {
+                                listItems.map((item, i) => {
+                                    return (
+                                        <div data-aos="zoom-out-up" data-aos-duration="1000" key={i} className="flex flex-col p-5 m-3 h-32 cursor-pointer border rounded-md w-[90%] md:w-[30rem]  hover:scale-105 transform transition-transform duration-300">
+                                            <span className='font-semibold'>{item.name} –</span>
+                                            <span className='text-sm'>{item.description}</span>
+                                        </div>
 
-                                )
-                            })
-                        }
+                                    )
+                                })
+                            }
 
+
+                        </div>
+
+                        {/* <div className="">
+                            <img src="/Gallery/2c4e41ac.jpg" alt="" />
+                        </div> */}
 
                     </div>
                 </div>

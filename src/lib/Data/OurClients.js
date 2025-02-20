@@ -36,37 +36,38 @@ export const OurClient = {
             description: "Manages local self-governance in rural areas, overseeing village councils and decentralized administration."
         },
         {
+            logo: "https://shimlamc.hp.gov.in/Content/FileStructure/Logo/logo.png",
+            name: "Municipal Corporation Shimla",
+            description: "Responsible for urban governance, sanitation, infrastructure, and public services in Shimla city."
+        },
+        {
             logo: "https://agriculture.hp.gov.in/wp-content/uploads/2023/11/Himachal-Pradesh-logo.png",
             name: "Department of Agriculture, Himachal Pradesh",
             description: "Supports farmers, promotes sustainable farming practices, and implements agricultural schemes in the state."
         },
         {
-            logo: "https://example.com/himachal-pradesh-agricultural-marketing-board-logo.jpg",
+            logo: "/hpsamb.png",
             name: "Himachal Pradesh Agricultural Marketing Board",
             description: "Regulates and promotes the marketing of agricultural produce, ensuring fair trade practices for farmers."
         },
         {
-            logo: "https://example.com/sukh-ashray-yojana-logo.jpg",
+
             name: "Sukh Ashray Yojana",
             description: "A welfare scheme in Himachal Pradesh, but no specific department found under this exact name."
         },
+
         {
-            logo: "https://example.com/municipal-corporation-shimla-logo.jpg",
-            name: "Municipal Corporation Shimla",
-            description: "Responsible for urban governance, sanitation, infrastructure, and public services in Shimla city."
-        },
-        {
-            logo: "https://example.com/himachal-pradesh-police-department-logo.jpg",
+            logo: "/hpPolice.jpg",
             name: "Himachal Pradesh Police Department",
             description: "Maintains law and order, crime prevention, and public safety in the state of Himachal Pradesh."
         },
         {
-            logo: "https://example.com/harmony-of-pines-logo.jpg",
+            logo: "https://scontent.fluh1-2.fna.fbcdn.net/v/t39.30808-1/323407994_5782989811790725_5609743780359366040_n.jpg",
             name: "Harmony of Pines (HP Police Orchestra)",
             description: "The official orchestra of Himachal Pradesh Police, performing at events to promote cultural harmony."
         },
         {
-            logo: "https://example.com/department-of-industries-himachal-pradesh-logo.jpg",
+            logo: "https://hppanchayat.nic.in/images/logo_img.png",
             name: "Department of Industries, Himachal Pradesh",
             description: "Oversees industrial development, business regulations, and economic growth initiatives in the state."
         }

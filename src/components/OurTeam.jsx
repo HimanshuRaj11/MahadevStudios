@@ -7,7 +7,8 @@ export default function OurTeam() {
 
             <div className="w-full flex flex-col md:flex-row justify-center items-center relative">
                 <div className="flex justify-center m-3 items-center bg-cover w-[80%] md:w-[45%] rounded-lg overflow-hidden" data-aos="zoom-out-up" data-aos-duration="1000">
-                    <img src="/Gallery/5L4A9185.JPG" className="rounded-lg size-[100%] object-cover" alt="" />
+                    <img src="/Gallery/5L4A9185.JPG" className=" size-[15rem] object-cover" alt="" />
+                    <img src="/Gallery/15_2178afb2.JPG" className=" size-[15rem] object-cover" alt="" />
                 </div>
                 <div className="p-5 m-3 rounded-md backdrop-blur-sm cursor-pointer shadow-lg w-[90%] md:w-[40%] text-justify" data-aos="zoom-out-up" data-aos-duration="1000">
                     <p className="inline text-shadow text-white text-lg ">

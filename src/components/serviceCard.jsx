@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { FaFilm, FaVideo, FaBullhorn, FaGavel, FaBuilding } from "react-icons/fa";
+import { MdMovie, MdMusicVideo } from "react-icons/md";
 
 const services = [
     {
@@ -26,7 +27,17 @@ const services = [
         icon: <FaBuilding size={32} className="text-yellow-500" />,
         title: "Corporate & Event Films",
         description: "From corporate promos to event coverage, we ensure every moment is beautifully captured and professionally presented.",
-    }
+    },
+    {
+        icon: <MdMovie size={32} className="text-yellow-500" />,
+        title: "Web Series",
+        description: "Crafting immersive and engaging episodic content that captivates audiences with compelling narratives, high production value, and innovative storytelling.",
+    },
+    {
+        icon: <MdMusicVideo size={32} className="text-yellow-500" />,
+        title: "Music Videos",
+        description: "Producing visually stunning and creatively directed music videos that enhance the artistic expression of musicians while resonating with diverse audiences.",
+    },
 ];
 
 export default function Services() {

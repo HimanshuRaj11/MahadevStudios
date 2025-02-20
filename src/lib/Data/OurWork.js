@@ -2,22 +2,12 @@ export const OurWork = [
     {
         _id: 1,
         thumbnail: "/nehaDixit.png",
-        title: " Neha Dixit’s Journey in Voice of Shimla ",
-        description: `Neha Dixit, a talented singer from Shimla, shares her incredible journey in the "Voice of Shimla" singing competition. She belongs to a small village, Kairati, and has been passionate about music since childhood. With a Master’s degree in Music, she was thrilled to audition for this prestigious competition.
+        title: "Voice of Shimla: A Stellar Showcase of Talent",
+        description: `Organized by Mahadev Studios during Shimla’s iconic Winter Carnival, Voice of Shimla is a celebrated and highly successful singing reality show that has captured the hearts of both national and international audiences. Now in its 2nd season, this prestigious competition culminates in a grand finale at the renowned Ridge Shimla, drawing a crowd of 15,000-20,000 people amidst the peak of tourism.
 
-During her audition round, Neha performed with confidence, sensing a positive response from the judges. She later had the opportunity to be mentored by Harmony of Pines – renowned music experts Karthik Sir and Inspector Vijay Sir, who guided the contestants on vocal techniques, stage presence, and performance skills.
+Each year, thousands of audition videos flood in from across India, with only the most talented voices making it to the stage. Voice of Shimla has become a launchpad for rising stars, such as Neha Dixit, Season 1’s winner, who went on to achieve nationwide recognition by joining Indian Idol.
 
-In various rounds, Neha showcased her versatility by performing iconic songs:
-- Audition Round – "Yeh Dil Tum Bin Kahin Lagta Nahi"
-- Bollywood Round – "Is Mod Se Jate Hain" (from Aandhi)
-- Cultural Round – A traditional Himachali folk song, emphasizing the importance of preserving local heritage.
-- Classical & Sufi Round – "Raina Beeti Jaye"
-- Fast-Paced Song Challenge – "Mera Dil Pyar Ka Deewana" (Asha Bhosale)
-- Final Round (Challenging Performance) – "Hawa Hawai" (Sridevi's iconic song)
-
-Her final performance was a true test of skill, and Neha emerged as the winner of the "Voice of Shimla" competition in the C category. As her name was announced, her parents proudly watched her receive the first prize, marking a memorable achievement in her musical journey.
-
-This video beautifully captures Neha’s dedication, growth, and passion for music, highlighting her determination and love for Indian classical, folk, and Bollywood music.`,
+A true testament to talent and opportunity, Voice of Shimla continues to shine as one of the most cherished and impactful events in India’s music scene.`,
         video_URL: "https://youtu.be/pI8ECtGHsq8?si=s1F40C79yxVajoCF",
     },
 
