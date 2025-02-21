@@ -57,14 +57,11 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us? */}
-      <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/5L4A2324.JPG')" }}>
-        <WhyChooseUs />
-      </section>
+      <WhyChooseUs />
+
 
       {/* Our Top Works  */}
       <OurTopWorks />
-      {/* <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/IMG_7728.JPG')" }}>
-      </section> */}
 
       {/* Our Clients */}
       <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/IMG_7728.JPG')" }}>
