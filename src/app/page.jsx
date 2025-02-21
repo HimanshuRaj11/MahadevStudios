@@ -14,8 +14,6 @@ import Event_Concert_Organization from "@/components/Event_Concert_Organization"
 import OurClients from '@/components/OurClients';
 export default function Home() {
 
-
-
   useEffect(() => {
     AOS.init();
   }, [])
@@ -26,7 +24,6 @@ export default function Home() {
       <section className="relative h-[60vh] md:h-screen bg-center bg-cover bg-no-repeat flex items-center justify-center text-center cursor-pointer p-6" style={{ boxShadow: 'inset 0 -200px 100px -100px black' }}>
         <video autoPlay loop className="absolute  w-full h-full object-cover shadowIn">
           <source src="/bg-video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
         </video>
         <img
           src="/MahadevStudios.png"
