@@ -7,7 +7,7 @@ export default function OurClients() {
     const media_organizations = OurClient.media_organizations;
     const government_departments = OurClient.government_departments_himachal_pradesh;
     return (
-        <div className=" pt-20 p-4 shadowIn">
+        <div className=" pt-20 p-4 ">
 
             <div className="">
                 <div className="flex w-full justify-center flex-col items-center">

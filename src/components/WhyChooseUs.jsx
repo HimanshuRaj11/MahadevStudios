@@ -29,8 +29,8 @@ const Tags = [
 ]
 export default function WhyChooseUs() {
     return (
-        <div className="flex flex-col py-5 px-5 md:px-24 shadowIn w-full ">
-            <h1 className="text-white text-4xl font-bold"> Why Choose Us?</h1>
+        <div className="flex flex-col py-5 px-5 md:px-24  w-full ">
+            <h1 className="text-white text-4xl font-bold backdrop-blur-md p-3 rounded-md w-fit "> Why Choose Us?</h1>
 
             <div className="flex flex-wrap m-5 justify-center items-center">
                 {

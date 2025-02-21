@@ -14,8 +14,6 @@ import Event_Concert_Organization from "@/components/Event_Concert_Organization"
 import OurClients from '@/components/OurClients';
 export default function Home() {
 
-
-
   useEffect(() => {
     AOS.init();
   }, [])
@@ -32,49 +30,60 @@ export default function Home() {
           src="/MahadevStudios.png"
           alt="Recording Studio"
           className="size-[8rem] lg:size-[15rem] opacity-50 qanimate-bounce absolute right-4 bottom-4"
-        // style={{
-        //   animation: 'moveUpDown 3s ease-in-out infinite'
-        // }}
         />
       </section>
 
       {/* about section */}
-      <Aboutsection />
-
-
+      <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/about-bg.jpg')" }}>
+        <Aboutsection />
+      </section>
 
       {/* Our services */}
+      <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/5L4A8168.JPG')" }}>
 
-      <div className="bg-[url('/6923253v.jpg')] md:bg-[url('/6923253.jpg')] w-[100%] shadowIn pt-10" >
-        <div data-aos="zoom-out-up" data-aos-duration="1000" className="flex justify-center items-center ">
-          <h1 className='text-4xl font-bold border md:text-5xl text-neutral-300 my-10 md:mt-0 p-2 md:p-4 bg-black/30 backdrop-blur-md rounded-lg'>
-            Our Expertise & Services
-          </h1>
+        <div className="bg-[url('/6923253v.jpg')] md:bg-[url('/6923253.jpg')] w-[100%] shadowIn pt-10" >
+          <div data-aos="zoom-out-up" data-aos-duration="1000" className="flex justify-center items-center ">
+            <h1 className='text-4xl font-bold border md:text-5xl text-neutral-300 my-10 md:mt-0 p-2 md:p-4 bg-black/30 backdrop-blur-md rounded-lg'>
+              Our Expertise & Services
+            </h1>
+          </div>
+          <Services />
         </div>
-        <Services />
-      </div>
+      </section>
 
       {/* Our Team */}
-      <OurTeam />
+      <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/team-bg.jpg')" }}>
+        <OurTeam />
+      </section>
 
       {/* Why Choose Us? */}
-      <WhyChooseUs />
+      <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/5L4A2324.JPG')" }}>
+        <WhyChooseUs />
+      </section>
 
       {/* Our Top Works  */}
       <OurTopWorks />
+      {/* <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/IMG_7728.JPG')" }}>
+      </section> */}
 
       {/* Our Clients */}
-
-      <OurClients />
+      <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/IMG_7728.JPG')" }}>
+        <OurClients />
+      </section>
 
       {/* Event_Concert_Organization */}
       <Event_Concert_Organization />
 
-      {/* Our Best Preformer */}
-      <OurTopPerformer />
-      {/* contact us */}
-      <ContactUs />
 
+      {/* Our Best Performer */}
+      <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/performer-bg.jpg')" }}>
+        <OurTopPerformer />
+      </section>
+
+      {/* contact us */}
+      <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/contact-bg.jpg')" }}>
+        <ContactUs />
+      </section>
 
     </div>
   );

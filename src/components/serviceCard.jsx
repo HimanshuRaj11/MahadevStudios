@@ -45,7 +45,7 @@ export default function Services() {
         <div className="flex gap-6 justify-center px-10 py-5 flex-wrap">
             {services.map((service, index) => (
                 <div data-aos="zoom-out-up" data-aos-duration="1000" key={index} className="">
-                    <Card className="bg-transparent h-[18rem] backdrop-blur-md max-w-72 text-white p-6 cursor-pointer rounded-xl border border-gray-700 hover:shadow-2xl  hover:scale-105 transform transition-transform duration-300">
+                    <Card className="bg-transparent bg-cover bg-center h-[18rem]  max-w-72 text-white p-6 cursor-pointer rounded-xl border border-gray-700 hover:shadow-2xl  hover:scale-105 transform transition-transform duration-300">
                         <CardContent className="flex flex-col items-start gap-4">
                             <div className="p-3 bg-yellow-900/20 rounded-full">{service.icon}</div>
                             <h3 className="text-lg font-semibold">{service.title}</h3>
