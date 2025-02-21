@@ -30,7 +30,7 @@ export default function Event_Concert_Organization() {
                 Event & Concert Organization
             </h1>
             <div className="flex flex-col w-full justify-center items-center md:flex-row" data-aos="zoom-out-up" data-aos-duration="1000">
-                <dive className="w-[90%] p-10 md:w-[40%] text-xl bg-center text-justify m-5 mb-6 bg-[url('/Gallery/2c4e41ac.jpg')]">
+                <dive className="w-[90%] p-10 md:w-[40%] h-full text-xl bg-center text-justify m-5 mb-6 bg-[url('/Gallery/2c4e41ac.jpg')]">
                     <p className="backdrop-blur-sm p-5 rounded-md" >
                         At Mahadev Studios, we bring your vision to life with world-class event and concert management. Whether it's a grand music concert, corporate event, cultural fest, or a private gathering, our experienced team ensures a seamless experience from planning to execution.
                     </p>
