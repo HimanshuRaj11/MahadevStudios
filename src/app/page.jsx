@@ -21,16 +21,12 @@ export default function Home() {
 
     <div className="w-[100%] ">
       {/* Hero section */}
-      <section className="relative h-[60vh] md:h-screen bg-center bg-cover bg-no-repeat flex items-center justify-center text-center cursor-pointer p-6" style={{ boxShadow: 'inset 0 -200px 100px -100px black' }}>
-        <video autoPlay loop muted className="absolute  w-full h-full object-cover shadowIn">
+      <section className="relative mt-12 sm:mt-0 bg-center bg-cover bg-no-repeat flex items-center justify-center text-center cursor-pointer" style={{ boxShadow: 'inset 0 -200px 100px -100px black' }}>
+        <video autoPlay loop muted className="  w-full object-cover shadowIn">
           <source src="/bg-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <img
-          src="/MahadevStudios.png"
-          alt="Recording Studio"
-          className="size-[8rem] lg:size-[15rem] opacity-50 qanimate-bounce absolute right-4 bottom-4"
-        />
+
       </section>
 
       {/* about section */}
