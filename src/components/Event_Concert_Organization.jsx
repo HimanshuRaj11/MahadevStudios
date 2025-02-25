@@ -35,7 +35,7 @@ export default function Event_Concert_Organization() {
                         At Mahadev Studios, we bring your vision to life with world-class event and concert management. Whether it's a grand music concert, corporate event, cultural fest, or a private gathering, our experienced team ensures a seamless experience from planning to execution.
                     </p>
                 </dive>
-                <div className=' w-[90%] md:w-[40%] ' data-aos="zoom-out-up" data-aos-duration="1000">
+                <div className=' w-[90%] md:w-[40%] m-2 rounded-md' data-aos="zoom-out-up" data-aos-duration="1000">
                     <img src="/Gallery/326a831f.jpg" className='rounded-md object-cover' alt="" />
                 </div>
             </div>
