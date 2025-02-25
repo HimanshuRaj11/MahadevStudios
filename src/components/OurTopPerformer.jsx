@@ -7,25 +7,24 @@ export const crew = [
     {
         id: "Neha_Dixit",
         name: "Neha Dixit",
-        instagram: "https://www.instagram.com/dixitneha37?igsh=dGNlazRoOGR6cnlr",
-        youtube: "https://www.youtube.com/@Singernehadixit/shorts",
+        instagram: "https://www.instagram.com/rhythmsmystic8?igsh=c3VmYzFqbWQxdjZ2",
+        youtube: "https://www.youtube.com/@MahadevStudios",
         image: "/neha.jpg",
         cast: "Singer"
     },
     {
         id: "Subhash",
         name: "Subhash prince",
-        instagram: "https://www.instagram.com/subhash_prince_566?igsh=MjVwNjR6ZjI5NHlz",
-        youtube: "https://www.youtube.com/@subhashprincelive",
+        instagram: "https://www.instagram.com/_.voice_of_shimla._._/",
+        youtube: "https://www.youtube.com/@MahadevStudios",
         image: "/Subhash.jpg",
         cast: "Singer"
     },
     {
         id: "Anjali_Nanak",
         name: "Anjali Nanak",
-        instagram: "https://www.instagram.com/kiddooo0?igsh=MWh6NDQwcWNpNXNoeg%3D%3D",
-        youtube: "https://www.youtube.com/@anjalinanak",
-        facebook: "https://www.facebook.com/kiddooo0/",
+        instagram: "https://www.instagram.com/_.voice_of_shimla._._/",
+        youtube: "https://www.youtube.com/@MahadevStudios",
         image: "/anjali.jpg",
         cast: "Singer"
     },
