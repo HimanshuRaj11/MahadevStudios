@@ -10,7 +10,7 @@ export default function Aboutsection() {
             {/* --- */}
             <div className="flex md:flex-row flex-col justify-center items-center">
                 <div className="md:w-1/2 md:px-0" data-aos="zoom-out-up" data-aos-duration="1000">
-                    <img src="/Gallery/IMG_7728.JPG" alt="Background Image" className="rounded-lg shadow-lg" />
+                    <img src="/service/fec219a.jpg" alt="Background Image" className="rounded-lg shadow-lg" />
                 </div>
                 <div className="md:w-[48%] w-full md:ml-8 text-white" data-aos="zoom-out-up" data-aos-duration="1000">
                     <h1 className="text-4xl font-bold mb-4 pl-5">Who We Are?</h1>
