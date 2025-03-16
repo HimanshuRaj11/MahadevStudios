@@ -17,7 +17,7 @@ export default function Aboutsection() {
                     <div className="p-5 text-justify">
 
                         <p className="text-lg leading-relaxed inline">
-                            Founded in 2012 in Shimla, <span className="font-bold text-lg">Mahadev Studios</span> is a renowned film production house known for producing high-quality documentaries, short films, ad films, web series, music videos, album songs, advertisements, and more.
+                            Founded in 2012 in Shimla, <span className="font-bold text-lg">Mahadev Studios</span> is a renowned film production house known for producing high-quality documentaries, short films, ads films, web series, music videos, album songs, advertisements, and more.
                         </p>
                         <br />
 

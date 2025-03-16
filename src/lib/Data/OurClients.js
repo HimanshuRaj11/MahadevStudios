@@ -1,7 +1,7 @@
 export const OurClient = {
     media_organizations: [
         {
-            logo: "https://enapp.webvantai.com/wp-content/uploads/2022/07/bbc.jpg",
+            logo: "/BBC.png",
             name: "BBC News",
             description: "A globally recognized British news organization providing news, analysis, and reports across various media platforms."
         },
