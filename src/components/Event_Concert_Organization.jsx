@@ -39,7 +39,7 @@ export default function Event_Concert_Organization() {
                     <img src="/Gallery/326a831f.jpg" className='rounded-md object-cover' alt="" />
                 </div>
             </div>
-            <section className="relative bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/326a831f.jpg')" }}>
+            <section className="relative w-full bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/Gallery/326a831f.jpg')" }}>
 
                 <div className="flex flex-col md:flex-row  my-4 justify-around w-full">
 
@@ -63,9 +63,7 @@ export default function Event_Concert_Organization() {
 
                             </div>
 
-                            {/* <div className="">
-                            <img src="/Gallery/2c4e41ac.jpg" alt="" />
-                        </div> */}
+
 
                         </div>
                     </div>
