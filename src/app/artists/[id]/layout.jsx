@@ -3,7 +3,6 @@ import { crew } from "@/components/OurTopPerformer";
 export async function generateMetadata({ params }) {
     const { id } = await params;
     const artist = crew.find(item => item.id === id)
-    console.log(params);
 
     return {
         title: `${artist?.name || "Artist"} | Mahadev Studios`,
