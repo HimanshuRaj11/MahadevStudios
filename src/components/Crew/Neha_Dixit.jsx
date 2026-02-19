@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { FaMusic, FaMapMarkerAlt, FaRupeeSign } from "react-icons/fa";
+import Link from 'next/link';
 
 const NehaDixitProfile = () => {
     return (
@@ -121,8 +122,8 @@ const NehaDixitProfile = () => {
 
                 <p className="font-bold mb-2">For Bookings and Inquiries:</p>
                 <ul className="list-none mb-4">
-                    <li>📧 Email: <a href="mailto:mahadevproductionsshimla@gmail.com" className="text-blue-500">mahadevproductionsshimla@gmail.com</a></li>
-                    <li>📞 Contact: <a href="tel:8894548468" className="text-blue-500">8894548468</a>, <a href="tel:7018313617" className="text-blue-500">7018313617</a></li>
+                    <li>📧 Email: <Link href="mailto:mahadevproductionsshimla@gmail.com" className="text-blue-500">mahadevproductionsshimla@gmail.com</Link></li>
+                    <li>📞 Contact: <Link href="tel:8894548468" className="text-blue-500">8894548468</Link>, <Link href="tel:7018313617" className="text-blue-500">7018313617</Link></li>
                 </ul>
 
                 <p>

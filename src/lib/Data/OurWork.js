@@ -5,9 +5,9 @@ export const OurWork = [
         title: "Voice of Shimla: A Stellar Showcase of Talent",
         description: `Organized by Mahadev Studios during Shimla’s iconic Winter Carnival, Voice of Shimla is a celebrated and highly successful singing reality show that has captured the hearts of both national and international audiences. Now in its 2nd season, this prestigious competition culminates in a grand finale at the renowned Ridge Shimla, drawing a crowd of 15,000-20,000 people amidst the peak of tourism.
 
-Each year, thousands of audition videos flood in from across India, with only the most talented voices making it to the stage. Voice of Shimla has become a launchpad for rising stars, such as Neha Dixit, Season 1’s winner, who went on to achieve nationwide recognition by joining Indian Idol.
+        Each year, thousands of audition videos flood in from across India, with only the most talented voices making it to the stage. Voice of Shimla has become a launchpad for rising stars, such as Neha Dixit, Season 1’s winner, who went on to achieve nationwide recognition by joining Indian Idol.
 
-A true testament to talent and opportunity, Voice of Shimla continues to shine as one of the most cherished and impactful events in India’s music scene.`,
+        A true testament to talent and opportunity, Voice of Shimla continues to shine as one of the most cherished and impactful events in India’s music scene.`,
         video1: "/video1.mp4",
         video2: "/video2.mp4",
     },
