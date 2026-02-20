@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const imageFiles = [
     "0fa47954.jpg", "5L4A0990.JPG", "5L4A2384.JPG", "5L4A2583.JPG",
@@ -188,7 +189,7 @@ export default function AboutPage() {
                         </div>
 
                         <p className="text-gray-400 leading-relaxed text-base">
-                            Mahadev Studios, founded in 2010 in Shimla, is a premier film production house
+                            Mahadev Studios, founded in 2012 in Shimla, is a premier film production house
                             specializing in high-quality documentaries, short films, web series, music videos,
                             and advertisements. With over 20 years of combined experience in the national TV
                             industry, we've built a reputation for excellence.
@@ -256,7 +257,9 @@ export default function AboutPage() {
                             onClick={() => setLightbox(i)}
                             className="break-inside-avoid overflow-hidden rounded-xl cursor-zoom-in group relative"
                         >
-                            <img
+                            <Image
+                                height={100}
+                                width={100}
                                 src={`/Gallery/${image}`}
                                 alt={`Gallery ${i + 1}`}
                                 className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
